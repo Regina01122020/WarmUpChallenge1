@@ -1,0 +1,27 @@
+body{
+    height: 500px;
+    background-color: darkgreen;
+    background-size: cover;
+}
+
+#movieForm{
+    border-style: solid;
+    background-color: lightsalmon;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    display: table;
+}
+
+#div1{
+    border-style: solid;
+    background-image: radial-gradient(circle, lightblue, cadetblue, blue, darkblue, navy);
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    display: table;
+}
+
+#h{
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Express App</title>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css"></link>
+    <script src="./views/display.js" defer></script>
+</head>
+
+<body>
+    <br>
+    <div id="div1">
+    <h2 id="h"> Welcome To My Movie Collections! </h2>
+    <br>
+    <h4 id="h"> Enter your favorite movie here: </h4>
+
+    <form action="home" method="POST" id="movieForm" name="movie-form">
+        <p> 
+            <label for="picture">Picture:</label> 
+            <input type="url" id="picture" name="Picture" required> 
+        </p>
+        <p> 
+            <label for="title">Movie Title:</label> 
+            <input type="text" id="title" name="Title" required> 
+        </p>
+        <p> 
+            <label for="genre">Movie Genre:</label> 
+            <input type="text" id="genre" name="Genre" required> 
+        </p>
+        <p> 
+            <label for="year">Year Released:</label> 
+            <input type="number" id="year_released" name="Year_Released" required> 
+        </p>
+        <p> 
+            <label for="cast">Favorite Cast:</label> 
+            <input type="text" id="favorite_cast" name="Favorite_Cast" required> 
+        </p><br>
+        <div class="form-input">
+            <input type="submit" value="Submit">
+            <input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Clear"/>
+        </div><br>
+    </form>
+    </div>
+    <br>
+    <div id="div1">
+        <h2 id="h"> Here Is My Movie Collection List: </h2>
+        <div id="movieForm-section"></div>
+        <br><br><br><br> 
+    
+</body>
+</html>

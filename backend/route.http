@@ -1,0 +1,21 @@
+GET http://localhost:3000/movie HTTP/1.1
+
+###
+
+POST http://localhost:3000/movie HTTP/1.1
+content-type: application/json
+
+{
+    "Picture": "add url here",
+    "Title": "add title",
+    "Genre": "add genre" ,
+	"Year_Released": "add year",
+	"Favorite_Cast": "add favorite cast"
+}
+
+###
+
+DELETE http://localhost:3000/movie/5f962341a445631ef46d18a3 HTTP/1.1
+
+###
+
